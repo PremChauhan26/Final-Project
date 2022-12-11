@@ -1,0 +1,81 @@
+h1 {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+    color:#9136e7;
+    font-size: 2rem;
+    background-image: linear-gradient(to top, #5e0af0 0%, #ee74f0 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    
+}
+body{
+    background-color: #d8bdf2;
+}
+.CakeTypes p{
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: url(/Images/Untitled.png);
+    background-size: cover;
+    position: relative;
+    color: #050505;
+}
+.navbar {
+    background: rgb(92, 46, 178);
+    height: 80px;
+    display: flex;
+    font-size: 1rem;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    }
+
+    .navbar-Container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 120px;
+        margin: 0 auto;
+        padding: 0 40px;
+     }
+
+#navbar-Logo {
+    background-color: rgb(131, 157, 250);
+    background-image: linear-gradient(to top, #7c88f3 0%, #c697f3 100%);
+    background-size: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    color: #3a1e81;
+}
+
+.navbar-menu {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.navbar-item {
+    height: 90px;
+    }
+.navbar-links {
+    color: #fffbfb;
+    justify-content: center;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0 2rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
